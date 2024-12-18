@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/main.css">
+      <title>Page Title</title>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg bg-light navbar-light">
+         <img src="" class="mr-2"><a class="navbar-brand" href="#">Drug Overdose Crisis in California</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-body" aria-controls="navbar-body" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+         <div class="collapse navbar-collapse" id="navbar-body">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav ml-auto">
+            </ul>
+         </div>
+      </nav>
+      <div class="container" id="bsr-wrapper">
+         <p>
+            California, as the most populous U.S. state, has been hit particularly hard by the overdose epidemic in recent years, despite the overall population growth slowing down. From 2010 to 2020, California's population grew by 6.1%, reaching 39.5 million residents. However, during that same decade, drug overdose deaths in the state increased by a tragic 58%, from 4,258 to 6,718. Of particular concern is the sharp rise in deaths involving fentanyl, an extremely potent synthetic opioid. In 2020 alone, fentanyl was involved in over 3,400 overdose deaths in California, a 162% increase from 2019. The San Francisco Bay Area has been one of the hardest hit regions, with fentanyl overdoses now accounting for a shocking percentage of the area's overdose fatalities. Experts point to factors like the state's large ports, economic disparities, homelessness, and the challenges of providing adequate addiction treatment and harm reduction services in explaining California's outsized struggle with opioid overdoses in recent years. Tackling this crisis will require a focused, sustained, and compassionate response from public health officials, addiction specialists, community leaders, and society as a whole.</p>
+         <embed src="./Choropleth_Map_of_California_Counties_VSC.html"
+        type="text/html" height="700" width="1000" />
+         <p>The choropleth map of California counties provides a powerful visual representation of the geographic distribution and severity of the overdose crisis across the state. By utilizing data on overdose crude rates for each county, the map paints a striking picture of how this epidemic has impacted different regions. The varying shades of color, with darker hues indicating higher rates, immediately draw the eye to the hardest-hit areas. Hovering over individual counties reveals their specific overdose rates, allowing for a more detailed understanding of the local situation. The map is created using Python code that leverages the Plotly Express library to transform raw data into an interactive and informative visualization. This code retrieves county boundary data from a GeoJSON file, merges it with the overdose data using FIPS codes as a common link, and then renders the choropleth map with customizable features like color scaling, map scope, and hover information. By presenting the data in this intuitive and visually compelling format, the map enables viewers to quickly grasp the scope and regional disparities of the overdose crisis, serving as a valuable tool for raising awareness, informing policy decisions, and targeting interventions to the communities most in need.</p>
+         <embed src="./All_OD_vs_Fent_OD_VSC.html"
+         type="text/html" height="700" width="1000" />
+         <embed src="./SF_OD_numbers_VSC.html"
+         type="text/html" height="700" width="1000" />
+         <p>The bar chart offers a straightforward and easy-to-understand visual representation of how the opioid death rate has evolved over the years. By displaying the death rate on the vertical axis and the corresponding years on the horizontal axis, the chart enables viewers to quickly grasp the overall trend and identify any notable changes or patterns in the data. This visualization serves as an effective tool for conveying the severity and trajectory of the opioid crisis to a general audience, highlighting the need for targeted interventions and policy responses.</p>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><script src="js/main.js"></script>
+   </body>
+</html>
